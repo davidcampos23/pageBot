@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: no-repeat;
+}
+
+body{
+  height: 100vh;
+  background: linear-gradient(252deg, #B93434 0%, rgba(132, 35, 35, .9) 26.56%, rgba(99, 33, 33, 1) 66.67%, rgba(57, 16, 16, 1) 100%);
+}
+
+.header{
+  background: rgba(0, 0, 0, 0.30);
+}
+
+.header strong{
+  background: linear-gradient(180deg, #F00 0%, rgba(225, 225, 225, 0.00) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bot{
+  width: 636px;
+  height: 746px;
+  background: rgba(0, 0, 0, 0.30);
+}
