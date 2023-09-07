@@ -30,4 +30,28 @@ body{
   width: 636px;
   height: 746px;
   background: rgba(0, 0, 0, 0.30);
+  box-shadow: 0 0 4px black;
+}
+
+.title{
+  background: linear-gradient(180deg, #F00 0%, #712E2E 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button{
+  width: 180px;
+  height: 50px;
+  background: #711D1D;
+}
+
+.button1{
+  width: 180px;
+  height: 50px;
+  background: #DB3E3E;
+}
+
+h2{
+  padding-top: 8px;
 }
